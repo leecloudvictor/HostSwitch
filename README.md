@@ -1,13 +1,33 @@
+## host文件配置说明
+
+[HostSwitch 环境切换]
+
+根据需要先配置以下host文件
+```
+hosts               当前环境
+hosts.develop       开发环境
+hosts.google        科学上网
+hosts.original      原始环境
+hosts.work          工作环境
+```
+都是在这几个环境中切换
+
+
 ## Windows环境初次使用说明
 
 将全部hosst文件拷贝至 C:\Windows\System32\drivers\etc\
+
 HostSwitch.bat.txt >> HostSwitch.bat
 
 C:\Windows\System32\drivers\etc\hosts
+
 手动备份hosts文件
+
 C:\Windows\System32\drivers\etc\hosts.bak
 
+
 hosts 和 hosts.bak 两个文件
+
 需要管理员权限，给Users组添加完全控制权限（仅仅编辑权限还不够）
 
 启动HostSwitch.bat
