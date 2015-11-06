@@ -17,8 +17,6 @@ hosts.work          工作环境
 
 将全部hosst文件拷贝至 C:\Windows\System32\drivers\etc\
 
-HostSwitch.bat.txt >> HostSwitch.bat
-
 C:\Windows\System32\drivers\etc\hosts
 
 手动备份hosts文件
@@ -48,7 +46,6 @@ sudo：无法解析主机：ubuntu
 
 将此目录放在home目录即可，执行以下命令
 ```
-$ mv HostSwitch.sh.txt HostSwitch.sh
 $ chmod +x HostSwitch.sh
 $ ./HostSwitch.sh
 ```
