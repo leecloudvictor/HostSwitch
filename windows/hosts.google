@@ -31,7 +31,7 @@
 216.239.38.125	mail.google.com
 216.239.38.125	talk.gmail.com
 216.239.38.125	www.gmail.com
-# www.laod.cn
+
 64.233.162.84	www.google.com
 216.239.38.125	google.com
 216.239.38.125	gcr.io
@@ -413,7 +413,7 @@
 216.239.38.125	safebrowsing.clients.google.com
 216.239.38.125	safebrowsing-cache.google.com
 64.233.162.81	sandbox.google.com
-# www.laod.cn
+
 216.239.38.125	scholar.google.com
 216.239.38.125	scholar.google.com.hk
 216.239.38.125	scholar.google.com.tw
@@ -1727,9 +1727,7 @@
 185.45.5.45	pic.twitter.com
 192.229.237.25	platform.twitter.com
 192.229.237.25	preview.cdn.twitter.com
-# 本文件来自 老D博客 www.laod.cn
-# 更新于：2015-11-21 18:24
-# 更新地址：http://laod.cn/hosts/2015-google-hosts.html
+
 185.45.5.41	si0.twimg.com
 185.45.5.41	si1.twimg.com
 185.45.5.41	si2.twimg.com
