@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #备份当前hosts文件
 sudo cp -f /etc/hosts /etc/hosts.bak
 
@@ -15,7 +16,7 @@ echo '''
 
 read host_type
 
-case $host_type in
+case ${host_type} in
 1) echo "环境已切换至[$host_type]初始环境"
    sudo cp -f `pwd`/hosts.original /etc/hosts;;
 2) echo "环境已切换至[$host_type]科学上网"

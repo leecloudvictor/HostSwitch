@@ -1,4 +1,8 @@
-﻿# Google start
+﻿127.0.0.1       localhost
+::1             localhost
+127.0.1.1       ubuntu  # 主机名称
+
+# Google start
 216.239.38.125	gmail-imap.l.google.com
 216.239.38.125	gmail-pop.l.google.com
 216.239.38.125	gmail-smtp.l.google.com
