@@ -1,6 +1,7 @@
 127.0.0.1       localhost
 ::1             localhost
 127.0.1.1       ubuntu  # 主机名称
+255.255.255.255	broadcasthost
 
 # 禅道
 192.168.2.91  pms.xxx.com
