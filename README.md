@@ -55,3 +55,5 @@ sudo：无法解析主机：ubuntu
 $ chmod +x HostSwitch.sh
 $ ./HostSwitch.sh
 ```
+
+__另外，关于笔记本win7环境wifi热点设置请参考PC_WIFI目录__
