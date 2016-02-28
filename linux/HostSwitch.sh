@@ -28,3 +28,5 @@ case ${host_type} in
 *) echo "环境编号[$host_type]不存在";;
 esac
 
+#清空DNS缓存
+sudo /etc/init.d/dns-clean start

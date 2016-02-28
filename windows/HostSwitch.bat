@@ -35,4 +35,5 @@ copy /y hosts.develop hosts
 goto END
 
 :END
+ipconfig /flushdns
 pause
