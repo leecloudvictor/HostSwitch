@@ -35,6 +35,19 @@ hosts 和 hosts.bak 两个文件
 
 ## Linux环境初次使用说明
 
+将此目录放在home目录即可，执行以下命令
+```
+$ chmod +x init.sh HostSwitch.sh
+$ ./init.sh
+$ ./HostSwitch.sh
+```
+
+更新 hosts 文件（需要定期更新）
+```
+$ chmod +x update.sh
+$ ./update.sh
+```
+
 hosts文件保留前几行如下（注意替换主机名称）：
 ```
 127.0.0.1       localhost  # 本地地址（ipv4）
@@ -50,10 +63,8 @@ hosts文件保留前几行如下（注意替换主机名称）：
 sudo：无法解析主机：ubuntu
 ```
 
-将此目录放在home目录即可，执行以下命令
-```
-$ chmod +x HostSwitch.sh
-$ ./HostSwitch.sh
-```
+## hosts 资源
+
+github 支持：[https://github.com/racaljk/hosts](https://github.com/racaljk/hosts)
 
 __另外，关于笔记本win7环境wifi热点设置请参考PC_WIFI目录__
